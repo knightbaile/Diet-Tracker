@@ -1,0 +1,31 @@
+{
+  "name": "diet-tracker-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run genabi && next dev",
+    "build": "npm run genabi && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "genabi": "node ./scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "@zama-fhe/relayer-sdk": "^0.3.0-5",
+    "ethers": "^6.15.0",
+    "idb": "^8.0.3",
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@fhevm/mock-utils": "^0.3.0-1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.8.3"
+  }
+}
