@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title FHE Diet Tracker Contract
 /// @notice A privacy-preserving diet tracking system using FHEVM
 /// @dev All calorie data is encrypted and calculations are performed on encrypted values
+/// @author knightbaile
 contract DietTracker is ZamaEthereumConfig {
     // User's daily diet records
     struct DailyRecord {
