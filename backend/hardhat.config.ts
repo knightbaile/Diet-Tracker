@@ -12,6 +12,7 @@ import "solidity-coverage";
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 
 // Support environment variables for PowerShell: $env:MNEMONIC and $env:SEPOLIA_RPC_URL
+// Network configuration for FHEVM testing and deployment
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
 const SEPOLIA_RPC_URL: string = process.env.SEPOLIA_RPC_URL || `https://sepolia.infura.io/v3/${INFURA_API_KEY}`;
