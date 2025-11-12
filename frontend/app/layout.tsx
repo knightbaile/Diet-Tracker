@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 export const metadata: Metadata = {
   title: "FHE Diet Tracker",
   description: "Privacy-preserving diet tracking system using Zama FHEVM",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default async function RootLayout({
