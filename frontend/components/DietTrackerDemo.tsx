@@ -88,6 +88,7 @@ export const DietTrackerDemo = () => {
   const [caloriesOut, setCaloriesOut] = useState<string>("");
   const [numRecordsForAvg, setNumRecordsForAvg] = useState<string>("7");
 
+  // Primary button styling with yellow theme
   const buttonPrimaryClass =
     "inline-flex items-center justify-center rounded-md bg-yellow-300 px-6 py-3 font-semibold text-black " +
     "transition-all duration-200 hover:bg-yellow-400 active:bg-yellow-500 " +
